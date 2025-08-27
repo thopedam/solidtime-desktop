@@ -6,8 +6,8 @@ import {
 	nativeImage,
 	Tray,
 } from "electron";
-import activeTrayIcon from "../../resources/solidtime_tray@4x.png?asset";
-import inactiveTrayIcon from "../../resources/solidtime_empty@4x.png?asset";
+import activeTrayIcon from "../../resources/solidtime_trayTemplate@4x.png?asset";
+import inactiveTrayIcon from "../../resources/solidtime_emptyTemplate@4x.png?asset";
 import type { TimeEntry } from "@solidtime/api";
 import dayjs from "dayjs";
 
